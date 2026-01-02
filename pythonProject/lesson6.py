@@ -23,12 +23,12 @@ from tabnanny import check
 #     print(c)
 #
 # text = "Hello"
-# # for c in text:
-# #     print(c)
-# #
-# # for i in range(len(text)): # 0 1 2 3 4
-# #     print(i)
+# for c in text:
+#     print(c)
 #
+# for i in range(len(text)): # 0 1 2 3 4
+#     print(i)
+
 # for i in range(len(text)):  # H e l l o  # 0 1 2 3 4
 #     if i % 2 == 0:
 #         print(text[i])

@@ -1,27 +1,27 @@
 #
 #
-# # items = []
-# # names = list()
+# items = []
+# names = list()
+
+# fruits = ["яблоко", "банан", "груша"]
+# print(fruits[0])
+# print(fruits[-1])
 #
-# # fruits = ["яблоко", "банан", "груша"]
-# # print(fruits[0])
-# # print(fruits[-1])
-# #
-# # fruits[1] = "апельсин"
-# # print(fruits)
-#
-# # del fruits[0]
-# # print(fruits)
-#
-# # items = [1, 2, 3, 4, 5, 6, 7, 8]
-# # print(items[1:4])
-# # print(items[2:])
-# # print(items[:5])
-# # print(items[1:5:2])
-# # print(items[::-1])
-# # items.reverse()
-# # print(items)
-#
+# fruits[1] = "апельсин"
+# print(fruits)
+
+# del fruits[0]
+# print(fruits)
+
+# items = [1, 2, 3, 4, 5, 6, 7, 8]
+# print(items[1:4])
+# print(items[2:])
+# print(items[:5])
+# print(items[1:5:2])
+# print(items[::-1])
+# items.reverse()
+# print(items)
+
 # '''
 # .append(x) - добавит элемент в конец списка
 # .insert(i,x) -вставляет элемент x по индексу i,
@@ -38,71 +38,71 @@
 #
 # fruits = ["яблоко", "банан", "груша"]
 #
-# # fruits.append("слива")
-# # print(fruits)
-# #
-# # fruits.insert(0, "персик")
-# # print(fruits)
-# #
+# fruits.append("слива")
+# print(fruits)
+#
+# fruits.insert(0, "персик")
+# print(fruits)
+#
 # fruits.insert(100, "мандарин")
 # print(fruits)
 # print(fruits.index("мандарин"))
+
+# last = fruits.pop(0)
+# print(fruits)
+# print(last)
+
+# last = fruits.remove("банан")
+# print(fruits)
+# print(last)
+
+
+# fruits = ["яблоко", "банан", "груша"]
+# fruits2 = ["апельсин", "мандарин", "ананас"]
+# fruits.extend(fruits2)
+# print(fruits)
+
+# numbers = [5, 2, 2, 2, 25, 33, 123]
+# # print(numbers.count(2))
 #
-# # last = fruits.pop(0)
-# # print(fruits)
-# # print(last)
-#
-# # last = fruits.remove("банан")
-# # print(fruits)
-# # print(last)
-#
-#
-# # fruits = ["яблоко", "банан", "груша"]
-# # fruits2 = ["апельсин", "мандарин", "ананас"]
-# # fruits.extend(fruits2)
-# # print(fruits)
-#
-# # numbers = [5, 2, 2, 2, 25, 33, 123]
-# # # print(numbers.count(2))
-# #
-# # numbers.append("hello")
-# # numbers.insert(0, ["a", "b", "c"])
-# # print(numbers)
-#
-#
-# # list() -создает список
-# # sorted() -возвращает новый отсортированный список
-# # len() - возвращает длинну списка
-# # sum() возвращает сумму элементов /значения одинаковых типов
-# # min() - возвращает минимальное значение списка /значения одинаковых типов
-# # max()- возвращает максимальное значение списка /значения одинаковых типов
-#
-# # numbers = [4, 1, 9, 2]
-# # # print(len(numbers))
-# # # print(sum(numbers))
-# # # print(min(numbers))
-# # # print(max(numbers))
-# # # print(sorted(numbers))
-# #
-# #
-# # numbers.sort()
-# # print(numbers)
-# #
-# # fruits = ["яблоко", "груша", "апельсин"]
-# #
-# # for fruit in fruits:
-# #     print("Я люблю", fruit)
+# numbers.append("hello")
+# numbers.insert(0, ["a", "b", "c"])
+# print(numbers)
+
+
+# list() -создает список
+# sorted() -возвращает новый отсортированный список
+# len() - возвращает длинну списка
+# sum() возвращает сумму элементов /значения одинаковых типов
+# min() - возвращает минимальное значение списка /значения одинаковых типов
+# max()- возвращает максимальное значение списка /значения одинаковых типов
+
+# numbers = [4, 1, 9, 2]
+# print(len(numbers))
+# print(sum(numbers))
+# print(min(numbers))
+# print(max(numbers))
+# print(sorted(numbers))
 #
 #
-# # grades = [2, 5, 3, 4, 5, 2, 5]
-# # excellent = []
-# #
-# # for grade in grades:
-# #     if grade == 5:
-# #         excellent.append(grade)
-# #
-# # print("Отличные оценки", excellent)
-# # print(excellent.count(5))
+# numbers.sort()
+# print(numbers)
+#
+# fruits = ["яблоко", "груша", "апельсин"]
+#
+# for fruit in fruits:
+#     print("Я люблю", fruit)
+
+#
+# grades = [2, 5, 3, 4, 5, 2, 5]
+# excellent = []
+#
+# for grade in grades:
+#     if grade == 5:
+#         excellent.append(grade)
+#
+# print("Отличные оценки", excellent)
+# print(excellent.count(5))
 
 # numbers = []
 #

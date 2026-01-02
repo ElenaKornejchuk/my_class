@@ -62,11 +62,11 @@
 # age = 18
 # passage = True
 #
-# # if age >= 18 or passage:
-# #     print("Проход разрешен")
-# # else:
-# #     print("Проход запрещен")
-#
+# if age >= 18 or passage:
+#     print("Проход разрешен")
+# else:
+#     print("Проход запрещен")
+
 # if age >= 18 and passage and gender == "Ж":
 #     print("Проход разрешен!")
 #
@@ -117,8 +117,8 @@
 #
 # match n:
 #     case 1 | 3 |5 |7 | 9 :
-# #         print("нечетное число")
-# #     case 2 | 4 | 6 | 8 | 10 :
+#         print("нечетное число")
+#     case 2 | 4 | 6 | 8 | 10 :
 #         print("четное число")
 #     case _:
 #         print("ошибка, проверьте число")

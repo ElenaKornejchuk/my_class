@@ -1,20 +1,20 @@
-# # # fruits = ("apple", "banana", "cherry")
-# # # print(type(fruits))
-# # #
-# # # colors = ("red", "green", "blue", "yellow")
-# # # print(colors[1])
-# # from pythonProject.lesson3 import number
-# #
-# # # cars = ("BMW", "Audi", "Tesla")
-# # # cars[0] = "Mercedes"
-# # # print(cars)
-# #
-# # # data = ("John", 25, ["Python", "Java"])
-# # # data[2].append("C++")
-# # # print(data)
-# from pythonProject.lesson3 import number
+# fruits = ("apple", "banana", "cherry")
+# print(type(fruits))
 #
-# #
+# colors = ("red", "green", "blue", "yellow")
+# print(colors[1])
+# from pythonProject.lesson3 import number
+
+# cars = ("BMW", "Audi", "Tesla")
+# cars[0] = "Mercedes"
+# print(cars)
+#
+# data = ("John", 25, ["Python", "Java"])
+# data[2].append("C++")
+# print(data)
+# from pythonProject.lesson3 import number
+
+#
 # animals = ("cat", "dog", "parrot")
 # lst = list(animals)
 # lst.append("hamster")
@@ -46,12 +46,12 @@
 # print(type(sorted_scores))
 # print(type(sorted_scores2))
 
-
-days = ("Mon", "Tue", "Wed")
-days_list = list(days)
-days_list.append("Thu")
-days = tuple(days_list)
-print(days)
+#
+# days = ("Mon", "Tue", "Wed")
+# days_list = list(days)
+# days_list.append("Thu")
+# days = tuple(days_list)
+# print(days)
 
 
 

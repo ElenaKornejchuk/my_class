@@ -1,78 +1,78 @@
-# # def greet():
-# #     print("**************")
-# #     print("Привет, мир!")
-# #     print("**************")
-# #
-# # greet()
-# # greet()
-# # greet()
+# def greet():
+#     print("**************")
+#     print("Привет, мир!")
+#     print("**************")
+#
+# greet()
+# greet()
+# greet()
 # from pythonProject.lesson3 import result
 #
 #
-# # print("**************")
-# # print("Привет, мир!")
-# # print("**************")
-# # print("**************")
-# # print("Привет, мир!")
-# # print("**************")
-# # print("**************")
-# # print("Привет, мир!")
-# # print("**************")
-# #
-# # def greet(name):
-# #     print(f"Привет, {name}")
-# #
-# # greet("Аня")
-# # greet("Иван")
+# print("**************")
+# print("Привет, мир!")
+# print("**************")
+# print("**************")
+# print("Привет, мир!")
+# print("**************")
+# print("**************")
+# print("Привет, мир!")
+# print("**************")
 #
-# # def add(a, b):
-# #     print(a + b)
-# #
-# # # add(2, 3)
-# # # add(10, 5)
-# # #
-# # # add(b=5, a=1)
-# #
-# # # add(2)
-# # add(b=5)
+# def greet(name):
+#     print(f"Привет, {name}")
 #
-# # return
-# #
-# # def add(a, b):
-# #     return(a + b)
-# #
-# # result = add(5, 6)
-# # print(result)
+# greet("Аня")
+# greet("Иван")
+
+# def add(a, b):
+#     print(a + b)
 #
-# # def greet(name="Гость"):
-# #     print(f"Привет, {name}!")
+# # add(2, 3)
+# # add(10, 5)
 # #
-# # greet("Аня")
-# # greet()
+# # add(b=5, a=1)
 #
-# #
-# # def calc_discount(price, discount=10):
-# #     '''
-# #     Вычисляет сумму товаров с учетом скидки
-# #     :price: Изначальная стоимость товара
-# #     :discount: Размер скидки, по умолчанию скидка = 10%
-# #     :return: Возвращает новую стоимость с учетом скидки
-# #     '''
-# #     new_price = price - (price * discount / 100)
-# #     print(new_price)
-# #     return new_price
-# #
-# # calc_discount(1000)
-# # calc_discount(1000, 20)
+# # add(2)
+# add(b=5)
 #
+# return
 #
-# # def add(a, b, c, d):
-# #     return a + b + c + d
-# #
-# # def add_all(*args):
-# #     print(args)
-# #
-# # add_all(1, 2, 3, 4, 5)
+# def add(a, b):
+#     return(a + b)
+#
+# result = add(5, 6)
+# print(result)
+
+# def greet(name="Гость"):
+#     print(f"Привет, {name}!")
+#
+# greet("Аня")
+# greet()
+
+#
+# def calc_discount(price, discount=10):
+#     '''
+#     Вычисляет сумму товаров с учетом скидки
+#     :price: Изначальная стоимость товара
+#     :discount: Размер скидки, по умолчанию скидка = 10%
+#     :return: Возвращает новую стоимость с учетом скидки
+#     '''
+#     new_price = price - (price * discount / 100)
+#     print(new_price)
+#     return new_price
+#
+# calc_discount(1000)
+# calc_discount(1000, 20)
+
+
+# def add(a, b, c, d):
+#     return a + b + c + d
+#
+# def add_all(*args):
+#     print(args)
+#
+# add_all(1, 2, 3, 4, 5)
 from itertools import count
 
 from pyexpat.errors import messages
@@ -204,18 +204,18 @@ from pyexpat.errors import messages
 # outer()
 # print("Глобально:", name)
 
-
-def outer():
-    count = 0
-
-    def inner(count):
-        # nonlocal count
-        count += 1
-        print("Счетчик:", count)
-
-    inner(3)
-    print(count)
-
-outer()
+#
+# def outer():
+#     count = 0
+#
+#     def inner(count):
+#         # nonlocal count
+#         count += 1
+#         print("Счетчик:", count)
+#
+#     inner(3)
+#     print(count)
+#
+# outer()
 
 
